@@ -1,0 +1,27 @@
+{
+ "name": "app",
+ "children": [
+	{"name": "Game", 
+	 "children": [
+	 	{"name": "Angry Birds", "size": 10},
+		{"name": "Temple Run", "size": 20}
+	 ]},
+	{"name": "Social", 
+	 "children": [
+	 	{"name": "Facebook", "size": 120},
+		{"name": "Line", "size": 100},
+		{"name": "Instagram", "size": 60}
+	 ]},	
+	{"name": "News & Magazines", 
+	 "children": [
+	 	{"name": "CNN News", "size": 5},
+		{"name": "udn News", "size": 30}
+	 ]},
+	 {"name": "Others", 
+	 "children": [
+	 	{"name": "Camera", "size": 5},
+		{"name": "Photos", "size": 25},
+		{"name": "Google Chrome", "size": 70}
+	 ]}
+	]
+}
