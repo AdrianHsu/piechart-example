@@ -8,7 +8,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewStub;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -77,8 +76,6 @@ public class MainFragment extends Fragment {
 
            webview.setBackgroundColor(Color.TRANSPARENT);
            webview.setLayerType(WebView.LAYER_TYPE_SOFTWARE, null);
-//            webview.loadUrl("file:///android_asset/" +
-//                 "html/index.html");
        }
 
 
